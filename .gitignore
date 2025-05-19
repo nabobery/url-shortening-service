@@ -1,0 +1,24 @@
+# Ignore everything
+*
+
+# But not these files...
+!/.gitignore
+
+!*.go
+!go.sum
+!go.mod
+!.pre-commit-config.yaml
+
+!*.md
+!LICENSE
+
+# !Makefile
+
+# do not ignore the web directory and its contents at any depth
+!web/
+!web/**/*
+
+!.env.example
+
+# ...even if they are in subdirectories
+!*/
